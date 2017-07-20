@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #bryht-features .feature-left {
   margin-bottom: 40px;
-  float: left;
+  /* float: left; */
 }
 @media screen and (max-width: 992px) {
   #bryht-features .feature-left {
