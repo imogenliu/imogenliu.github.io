@@ -553,7 +553,7 @@ h1, h2, h3, h4, h5, h6, figure {
   position: absolute;
   top: 80px;
   left: 50%;
-  margin-left: -42px; 
+  margin-left: -39px; 
   z-index: 100;
   display: table;
   -webkit-border-radius: 50%;
@@ -575,15 +575,15 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 992px) {
   .timeline > li > .timeline-year {
-    margin-left: 52px; 
-    top: 28px;
+    margin-left: 50px; 
+    top: 25px;
     left: 0px;
     font-size: 0.9em;
   }
 }
 @media screen and (max-width: 768px) {
   .timeline > li > .timeline-year {
-    margin-left: -11px;
+    margin-left: -13.9px;
     top: 60px;
     left: 0px;
     font-size: 0.9em;
