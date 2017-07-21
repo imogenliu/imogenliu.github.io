@@ -421,6 +421,8 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 20px;
   line-height: 1.5;
   color: #000;
+  font-weight: bold;
+  text-decoration: underline;
 }
 .bryht-heading p {
   font-size: 18px;
@@ -545,14 +547,44 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
+.timeline > li > .timeline-year{
+  font-size: 1.0em;
+  text-align: center;
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  margin-left: -42px; 
+  z-index: 100;
+  display: table;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
 @media screen and (max-width: 768px) {
   .timeline > li > .timeline-badge {
     margin-left: -10px !important;
   }
 }
+
 @media screen and (max-width: 992px) {
   .timeline > li > .timeline-badge {
     margin-left: -10px !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .timeline > li > .timeline-year {
+    top: 28px;
+    left: 102px;
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 768px) {
+  .timeline > li > .timeline-year {
+    top: 58px;
+    left: 38px;
+    font-size: 0.9em;
   }
 }
 .timeline > li > .timeline-badge i {
@@ -561,6 +593,8 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 44px;
   font-size: 18px;
 }
+
+
 .timeline > li.timeline-unverted {
   text-align: left;
 }
@@ -595,6 +629,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 16px;
   font-weight: normal;
   color: #bfbfbf;
+  text-decoration: underline;
 }
 
 .timeline-body > p,
