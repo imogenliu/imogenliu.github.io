@@ -575,15 +575,17 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 @media screen and (max-width: 992px) {
   .timeline > li > .timeline-year {
+    margin-left: 52px; 
     top: 28px;
-    left: 102px;
+    left: 0px;
     font-size: 0.9em;
   }
 }
 @media screen and (max-width: 768px) {
   .timeline > li > .timeline-year {
-    top: 58px;
-    left: 38px;
+    margin-left: -11px;
+    top: 60px;
+    left: 0px;
     font-size: 0.9em;
   }
 }
