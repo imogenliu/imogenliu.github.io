@@ -1,0 +1,43 @@
+/* Basic styling */
+:root {
+  --primary-color: #333;
+  --background-color: #fff;
+  --link-color: #0366d6;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header, footer {
+  margin: 2rem 0;
+}
+
+article {
+  margin-bottom: 2rem;
+}
+
+h1, h2, h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+time {
+  color: #666;
+  font-size: 0.9rem;
+}
