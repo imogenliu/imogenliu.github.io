@@ -2,6 +2,7 @@ baseURL = "https://imogenliu.com/"
 languageCode = "en-us"
 title = "Imogen T. Liu"
 theme = "ananke"
+themesDir = "themes"
 enableRobotsTXT = true
 disableKinds = ["taxonomy"]
 
@@ -12,6 +13,13 @@ pagerSize = 10
   description = "Assistant Professor of International Political Economy at Vrije Universiteit Amsterdam"
   author = "Imogen T. Liu"
   mainSections = ["posts"]
+  featured_image = "/images/hero-background.jpg"
+  background_color_class = "bg-black"
+  recent_posts_number = 3
+  
+  # Add this section to register your custom CSS with Ananke
+  [params.ananke]
+    custom_css = ["custom.css"]
 
 [menu]
   [[menu.main]]

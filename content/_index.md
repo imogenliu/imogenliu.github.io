@@ -1,15 +1,10 @@
 ---
-# Homepage
-type: widget_page
-
-# Homepage is the most recent page
 title: "Imogen T. Liu"
-subtitle: "Assistant Professor of International Political Economy at Vrije Universiteit Amsterdam"
-
-# Homepage banner
-banner:
-  image: "banner.jpg"
+featured_image: "/images/hero-background.jpg"
+description: "Assistant Professor of International Political Economy at Vrije Universiteit Amsterdam"
 ---
+
+Welcome to my academic website. Here you can find information about my research, publications, and more.
 
 ## Welcome
 
