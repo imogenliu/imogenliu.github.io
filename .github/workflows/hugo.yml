@@ -30,8 +30,7 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          submodules: recursive
+        # Remove the submodules: recursive line to stop Git from trying to fetch submodules
           
       - name: Setup Pages
         id: pages
