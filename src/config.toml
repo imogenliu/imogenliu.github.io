@@ -1,10 +1,12 @@
 baseURL = "https://imogenliu.com/"
 languageCode = "en-us"
 title = "Imogen T. Liu"
-theme = ""
+theme = "ananke"  # Comment out this line
 enableRobotsTXT = true
-disableKinds = ["taxonomy", "taxonomyTerm"]
-paginate = 10
+disableKinds = ["taxonomy"]
+
+[pagination]
+pagerSize = 10
 
 [params]
   description = "Assistant Professor of International Political Economy at Vrije Universiteit Amsterdam"
@@ -40,5 +42,4 @@ paginate = 10
     lineNos = false
     noClasses = false
   [markup.goldmark]
-    [markup.goldmark.renderer]
       unsafe = true
