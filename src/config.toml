@@ -1,0 +1,44 @@
+baseURL = "https://imogenliu.com/"
+languageCode = "en-us"
+title = "Imogen T. Liu"
+theme = ""
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
+paginate = 10
+
+[params]
+  description = "Assistant Professor of International Political Economy at Vrije Universiteit Amsterdam"
+  author = "Imogen T. Liu"
+  mainSections = ["posts"]
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Research"
+    url = "/research/"
+    weight = 3
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 4
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 5
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    lineNos = false
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
