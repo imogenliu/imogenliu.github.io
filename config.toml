@@ -16,10 +16,6 @@ pagerSize = 10
   featured_image = "/images/hero-background.jpg"
   background_color_class = "bg-black"
   recent_posts_number = 3
-  
-  # Add this section to register your custom CSS with Ananke
-  [params.ananke]
-    custom_css = ["custom.css"]
 
 [menu]
   [[menu.main]]
