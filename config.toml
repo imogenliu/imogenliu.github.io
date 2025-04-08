@@ -49,3 +49,6 @@ pagerSize = 10
     noClasses = false
   [markup.goldmark]
       unsafe = true
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
