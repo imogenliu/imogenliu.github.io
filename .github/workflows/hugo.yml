@@ -43,7 +43,6 @@ jobs:
           extended: true
           
       - name: Build with Hugo
-        working-directory: src  # added working directory so Hugo finds the config file
         env:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
@@ -54,7 +53,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./src/public  # restored artifact path
+          path: ./public  # restored artifact path
 
   # Deployment job
   deploy:
