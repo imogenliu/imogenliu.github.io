@@ -4,7 +4,7 @@ title = "Imogen T. Liu"
 theme = "ananke"
 themesDir = "themes"
 enableRobotsTXT = true
-disableKinds = ["taxonomy"]
+disableKinds = ["taxonomy", "section"]
 resourceDir = "public"
 publishDir = "public"
 
@@ -51,4 +51,9 @@ pagerSize = 10
       unsafe = true
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS"]
+
+[environments.production]
+  buildDrafts = false
+  buildFuture = false
+  buildExpired = false
