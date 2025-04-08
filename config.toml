@@ -5,6 +5,8 @@ theme = "ananke"
 themesDir = "themes"
 enableRobotsTXT = true
 disableKinds = ["taxonomy"]
+resourceDir = "public"
+publishDir = "public"
 
 [pagination]
 pagerSize = 10
