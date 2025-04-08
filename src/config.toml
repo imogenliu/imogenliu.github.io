@@ -1,7 +1,7 @@
 baseURL = "https://imogenliu.com/"
 languageCode = "en-us"
 title = "Imogen T. Liu"
-theme = "ananke"  # Comment out this line
+theme = "ananke"
 enableRobotsTXT = true
 disableKinds = ["taxonomy"]
 
