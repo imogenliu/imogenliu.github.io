@@ -44,18 +44,18 @@ jobs:
           extended: true
           
       - name: Build with Hugo
+        working-directory: src  # added working directory so Hugo finds the config file
         env:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          cd src
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./src/public
+          path: ./src/public  # restored artifact path
 
   # Deployment job
   deploy:
