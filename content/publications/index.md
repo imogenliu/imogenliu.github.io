@@ -6,7 +6,7 @@ date: "2023-01-01"
 
 # Publications
 
-My work has been published in journals across political economy, geography, and development studies. For a complete list, please visit my [Google Scholar page](https://scholar.google.com/citations) or my [VU Research Portal](https://research.vu.nl/en/persons/imogen-t-liu/publications/).
+My work has been published in journals across political economy, geography, and development studies. For a complete list, please visit my [Google Scholar page](https://scholar.google.com/citations?user=1Maw55gAAAAJ&hl=en) or my [VU Research Portal](https://research.vu.nl/en/persons/imogen-t-liu/publications/).
 
 ## Selected Publications
 

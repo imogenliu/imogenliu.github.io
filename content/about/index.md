@@ -43,3 +43,11 @@ I teach courses on:
 - Co-lead of the Finance and Money working group of the China in Europe Research Network
 - Research associate of the Second Cold War Observatory
 - Member of the FINGEO network
+
+## Connect
+
+- [Google Scholar](https://scholar.google.com/citations?user=1Maw55gAAAAJ&hl=en)
+- [ORCID](https://orcid.org/0000-0002-1627-9849)
+- [Scopus](http://www.scopus.com/inward/authorDetails.url?authorID=57205595663&partnerID=8YFLogxK)
+- [Twitter](https://twitter.com/imogentliu?lang=en)
+- [LinkedIn](https://nl.linkedin.com/in/imogen-liu)

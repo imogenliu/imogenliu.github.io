@@ -12,12 +12,13 @@ publishDir = "public"
 pagerSize = 10
 
 [params]
-  description = "Assistant Professor of International Political Economy at Vrije Universiteit Amsterdam"
+  description = "Assistant Professor, Faculty of Social Sciences, Political Science and Public Administration, Vrije Universiteit Amsterdam | Research Associate at Second Cold War Observatory and FINGEO network"
   author = "Imogen T. Liu"
   mainSections = ["posts"]
   featured_image = "/images/hero-background.jpg"
   background_color_class = "bg-black"
   recent_posts_number = 3
+  keywords = ["Political Science", "Political Economy", "Development", "China", "International Relations", "Geopolitics", "Geoeconomics", "China-EU Relations", "Public Finance", "Financial Markets", "Investment", "Infrastructure", "State Capitalism", "Financialization", "Economic Geography"]
 
 [menu]
   [[menu.main]]

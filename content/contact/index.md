@@ -22,13 +22,13 @@ The Netherlands
 
 ### Research Profiles
 - [VU Research Portal](https://research.vu.nl/en/persons/imogen-t-liu)
-- [Google Scholar](https://scholar.google.com)
+- [Google Scholar](https://scholar.google.com/citations?user=1Maw55gAAAAJ&hl=en)
 - [ORCID](https://orcid.org/0000-0002-1627-9849)
-- [Scopus](https://www.scopus.com/authid/detail.uri?authorId=xxxxxxxx)
+- [Scopus](http://www.scopus.com/inward/authorDetails.url?authorID=57205595663&partnerID=8YFLogxK)
 
 ### Social Media
-- [Twitter/X](https://twitter.com)
-- [LinkedIn](https://linkedin.com)
+- [Twitter/X](https://twitter.com/imogentliu?lang=en)
+- [LinkedIn](https://nl.linkedin.com/in/imogen-liu)
 
 ## Research Networks
 
