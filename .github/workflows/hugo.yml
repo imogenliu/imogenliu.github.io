@@ -30,7 +30,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        # Remove the submodules: recursive line to stop Git from trying to fetch submodules
+        with:
+          submodules: true  # Ensure submodules (themes) are checked out
           
       - name: Setup Pages
         id: pages
@@ -48,7 +49,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: |
-          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+          hugo --minify --baseURL "https://imogenliu.com/"
           
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
