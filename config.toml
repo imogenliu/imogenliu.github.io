@@ -4,9 +4,19 @@ title = "Imogen T. Liu"
 theme = "hugo-researcher"
 themesDir = "themes"
 enableRobotsTXT = true
-disableKinds = ["taxonomy", "section"]
+disableKinds = ["taxonomy", "section", "page", "home"]
 resourceDir = "public"
 publishDir = "public"
+ignoreFiles = [".*"]
+buildDrafts = false
+buildFuture = false
+
+[frontmatter]
+  date = ["date", "publishDate", "lastmod"]
+  lastmod = [":git", "lastmod", "date", "publishDate"]
+  publishDate = ["publishDate", "date"]
+  expiryDate = ["expiryDate"]
+  draft = true
 
 [pagination]
 pagerSize = 10
@@ -54,3 +64,5 @@ home = ["HTML", "RSS"]
   buildDrafts = false
   buildFuture = false
   buildExpired = false
+  disableKinds = ["taxonomy", "section", "page", "home"]
+  ignoreFiles = [".*"]
