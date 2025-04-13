@@ -1,29 +1,16 @@
 baseURL = "https://imogenliu.com/"
 languageCode = "en-us"
-title = "Imogen T. Liu"
+title = "Anonymous"
 theme = "hugo-researcher"
 themesDir = "themes"
 enableRobotsTXT = true
-disableKinds = ["taxonomy", "section", "page", "home"]
+disableKinds = ["taxonomy", "section"]
 resourceDir = "public"
 publishDir = "public"
-ignoreFiles = [".*"]
-buildDrafts = false
-buildFuture = false
-
-[frontmatter]
-  date = ["date", "publishDate", "lastmod"]
-  lastmod = [":git", "lastmod", "date", "publishDate"]
-  publishDate = ["publishDate", "date"]
-  expiryDate = ["expiryDate"]
-  draft = true
-
-[pagination]
-pagerSize = 10
 
 [params]
-  description = "Assistant Professor, Faculty of Social Sciences, Political Science and Public Administration, Vrije Universiteit Amsterdam | Research Associate at Second Cold War Observatory and FINGEO network"
-  author = "Imogen T. Liu"
+  description = "description..."
+  author = "Anonymous"
   mainSections = ["posts"]
   featured_image = "/images/hero-background.jpg"
   background_color_class = "bg-black"
@@ -35,34 +22,3 @@ pagerSize = 10
     name = "Home"
     url = "/"
     weight = 1
-  [[menu.main]]
-    name = "Research"
-    url = "/research/"
-    weight = 2
-  [[menu.main]]
-    name = "Publications"
-    url = "/publications/"
-    weight = 3
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact/"
-    weight = 4
-
-[markup]
-  [markup.highlight]
-    codeFences = true
-    guessSyntax = false
-    lineNos = false
-    noClasses = false
-  [markup.goldmark]
-      unsafe = true
-
-[outputs]
-home = ["HTML", "RSS"]
-
-[environments.production]
-  buildDrafts = false
-  buildFuture = false
-  buildExpired = false
-  disableKinds = ["taxonomy", "section", "page", "home"]
-  ignoreFiles = [".*"]
